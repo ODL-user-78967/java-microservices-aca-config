@@ -36,6 +36,7 @@ spring:
     open-in-view: false
     hibernate:
       ddl-auto: none
+    show-sql: true
 
 # Spring Boot 1.5 makes actuator secure by default
 management.security.enabled: false
